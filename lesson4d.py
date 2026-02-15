@@ -1,0 +1,30 @@
+# While loop
+#It executes a block of code repeatedly as long as a certai condition is true. The syntax of the while loop is:
+"""
+initializing a variable
+while keyboard,
+followed by the condition/statement to be evaluated,
+followed by a full colon,
+code to be printed out,
+increment/decrement
+"""
+
+number = 0
+while number < 5:
+    print("Hello Ryan", number)
+    number = number + 1
+
+print('==========================')
+# even numbers from 50 to 70
+
+number = 50
+while number <=70:
+    print(number)
+    number +=2
+
+# below is a decrement ecxample
+
+number = 201
+while number >=150:
+    print(number)
+    number -=3
